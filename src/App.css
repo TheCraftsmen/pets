@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Kranky');
+
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+}
+
+.big{
+    font-size: 50px !important;
+}
+
+
+.super-font{
+    font-family: 'Kranky', cursive;
+    font-size: 32px;
+}
+
+
+@media screen and (min-width: 800px) {
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 700px;
+        margin: 10px auto;
+    }
+
+    .container-login {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 500px;
+        margin: 50px auto;
+    }
+}
+
+.container, .container-login{
+    text-align: center;
+}
+
+
+.card-width {
+  height: 400px;
+}
+
+.title-font{
+  font-family: 'Open Sans Condensed', sans-serif !important;
+}
+
+.search-bar{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px; 
+}
+
+.align-left{
+    text-align: left;
+}
